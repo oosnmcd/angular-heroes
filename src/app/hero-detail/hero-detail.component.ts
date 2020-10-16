@@ -6,9 +6,8 @@ import { Hero } from '../Hero'
   styleUrls: ['./hero-detail.component.css']
 })
 export class HeroDetailComponent implements OnInit {
-
-  constructor() { }
   @Input() hero: Hero;
+  constructor() { }
   ngOnInit(): void {
   }
 
