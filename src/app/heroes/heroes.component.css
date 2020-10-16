@@ -9,31 +9,32 @@
     cursor: pointer;
     position: relative;
     left: 0;
-    background-color: rgb(116, 14, 14);
+    color: #ffffff;
+    background-color: rgb(76, 9, 82);
     margin: .5em;
     padding: .3em 0;
     height: 1.6em;
     border-radius: 4px;
   }
   .heroes li:hover {
-    color: #607D8B;
-    background-color: rgb(119, 32, 32);
+    color: #ffffff;
+    background-color: rgb(123, 36, 158);
     left: .1em;
   }
   .heroes li.selected {
-    background-color: #1b5e34;
-    color: rgb(77, 26, 26);
+    background-color: #8502d1;
+    color: rgb(255, 255, 255);
   }
   .heroes li.selected:hover {
-    background-color: #26727c;
-    color: rgb(80, 13, 13);
+    background-color: #ca01fc;
+    color: rgb(255, 255, 255);
   }
   .heroes .badge {
     display: inline-block;
     font-size: small;
-    color: rgb(114, 28, 28);
+    color: rgb(0, 0, 0);
     padding: 0.8em 0.7em 0 0.7em;
-    background-color:#405061;
+    background-color:#b203e7;
     line-height: 1em;
     position: relative;
     left: -1px;
